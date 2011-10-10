@@ -8,4 +8,13 @@
         <description>simply tag resources with user-defined, weighted tags.</description>
         <rdfs:label>Tagging</rdfs:label>
     </doap:Project>
+
+    <doap:Version rdf:about="https://raw.github.com/AKSW/tagging.ontowiki/master/doap.rdf#v0.5">
+            <doap:file-release rdf:resource="https://github.com/AKSW/tagging.ontowiki/zipball/v0.5" />
+            <doap:created>2011-10-10</doap:created>
+            <doap:revision>0.5</doap:revision>
+    </doap:Version>
+
+
+
 </rdf:RDF>
