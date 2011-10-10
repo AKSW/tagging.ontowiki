@@ -1,0 +1,11 @@
+<rdf:RDF xmlns="http://purl.org/dc/elements/1.1/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <doap:Project rdf:about="https://raw.github.com/AKSW/tagging.ontowiki/master/doap.rdf#id">
+        <description>simply tag resources with user-defined, weighted tags.</description>
+        <rdfs:label>Tagging</rdfs:label>
+    </doap:Project>
+</rdf:RDF>
