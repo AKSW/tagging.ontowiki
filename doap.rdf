@@ -7,14 +7,18 @@
     <doap:Project rdf:about="https://raw.github.com/AKSW/tagging.ontowiki/master/doap.rdf#id">
         <description>simply tag resources with user-defined, weighted tags.</description>
         <rdfs:label>Tagging</rdfs:label>
-    </doap:Project>
-
-    <doap:Version rdf:about="https://raw.github.com/AKSW/tagging.ontowiki/master/doap.rdf#v0.5">
+        <doap:name>Tagging</doap:name>
+        <doap:created>2009-03-01</doap:created>
+        <shortdesc xml:lang="en">
+          A Tagging-Component for keyword indexing of arbitrary Resources.
+        </shortdesc>
+        <shortdesc xml:lang="de">
+          Eine Tagging-Komponente für die Verschlagwortung von beliebigen Ressourcen.
+        </shortdesc>
+        <doap:Version rdf:about="https://raw.github.com/AKSW/tagging.ontowiki/master/doap.rdf#v0.5">
             <doap:file-release rdf:resource="https://github.com/AKSW/tagging.ontowiki/zipball/v0.5" />
             <doap:created>2011-10-10</doap:created>
             <doap:revision>0.5</doap:revision>
-    </doap:Version>
-
-
-
+        </doap:Version>
+    </doap:Project>
 </rdf:RDF>
