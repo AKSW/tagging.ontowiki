@@ -15,10 +15,11 @@
         <shortdesc xml:lang="de">
           Eine Tagging-Komponente für die Verschlagwortung von beliebigen Ressourcen.
         </shortdesc>
-        <doap:Version rdf:about="https://raw.github.com/AKSW/tagging.ontowiki/master/doap.rdf#v0.5">
-            <doap:file-release rdf:resource="https://github.com/AKSW/tagging.ontowiki/zipball/v0.5" />
-            <doap:created>2011-10-10</doap:created>
-            <doap:revision>0.5</doap:revision>
-        </doap:Version>
+        <doap:Version rdf:resource="https://raw.github.com/AKSW/tagging.ontowiki/master/doap.rdf#v0.5" />
     </doap:Project>
+    <doap:Version rdf:about="https://raw.github.com/AKSW/tagging.ontowiki/master/doap.rdf#v0.5">
+        <doap:file-release rdf:resource="https://github.com/AKSW/tagging.ontowiki/zipball/v0.5" />
+        <doap:created>2011-10-10</doap:created>
+        <doap:revision>0.5</doap:revision>
+    </doap:Version>
 </rdf:RDF>
