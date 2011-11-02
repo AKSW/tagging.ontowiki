@@ -5,10 +5,11 @@
 @prefix extension: <http://ns.ontowiki.net/Extensions/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix event: <http://ns.ontowiki.net/SysOnt/Events/> .
-@prefix : <http://ns.ontowiki.net/Extensions/tagging/> .
+@prefix : <https://raw.github.com/AKSW/tagging.ontowiki/master/doap.rdf#> .
 
-<> foaf:primaryTopic :tagging .
-:tagging a doap:Project ;
+<> foaf:primaryTopic :this .
+:this a doap:Project ;
+  owconfig:registeredAt <http://extensions.ontowiki.net>;
   owconfig:privateNamespace <http://ns.ontowiki.net/Extensions/ontowiki/> ;
   owconfig:enabled "false"^^xsd:boolean ;
   owconfig:templates "templates" ;
@@ -22,13 +23,13 @@
   rdfs:label "Exploretags" ;
   owconfig:priority "3" ;
   owconfig:context "main.window.instances" .
-:tagging owconfig:hasModule :Tagging .
+:this owconfig:hasModule :Tagging .
 :Tagging a owconfig:Module ;
   rdfs:label "Tags" ;
   owconfig:caching "" ;
   owconfig:priority "3" ;
   owconfig:context "main.window.properties" .
-:tagging :subclassOf <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+:this :subclassOf <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
   :resOf <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ;
   :label <http://www.w3.org/2000/01/rdf-schema#label> ;
   :tagclass <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> ;
