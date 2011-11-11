@@ -5,12 +5,13 @@
 @prefix extension: <http://ns.ontowiki.net/Extensions/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix event: <http://ns.ontowiki.net/SysOnt/Events/> .
-@prefix : <http://ns.ontowiki.net/Extensions/tagging/> .
+@prefix : <https://raw.github.com/AKSW/tagging.ontowiki/master/doap.rdf#> .
 
 <> foaf:primaryTopic :this .
 :this a doap:Project ;
   doap:name "tagging" ;
   owconfig:privateNamespace <http://ns.ontowiki.net/Extensions/tagging/> ;
+  owconfig:registeredAt <http://extensions.ontowiki.net>;
   owconfig:enabled "false"^^xsd:boolean ;
   owconfig:templates "templates" ;
   owconfig:languages "languages" ;
